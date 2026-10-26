@@ -1,0 +1,22 @@
+# Never publish Snapchat exports, metadata, reports, or local outputs.
+daten/*
+!daten/.gitkeep
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.webp
+*.csv
+memories_history.json
+_Berichte/
+_Ergebnis/
+_Test/
+_Verbunden/
+_Import_Jahre/
+_Import_temp_*/
+.venv/
+__pycache__/
+*.pyc
+tools/
